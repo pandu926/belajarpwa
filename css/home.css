@@ -1,0 +1,95 @@
+body {
+    background-color:white;
+}
+#navbar {
+    background-color: transparent;
+    color: black;
+}
+#humbar {
+    font-size: 30px;
+    z-index: 40;
+    
+}
+/* css home */
+.topnav li a {
+    z-index: 10;
+}
+.brand-logo {
+    z-index: 10;
+    
+}
+#logo-container  {
+    font-size: 45px;
+    font-weight: bold;
+
+}
+#bg {
+    background-color: black; 
+    
+    position: relative; 
+    z-index: 3; 
+    top: -380px;
+}
+#bg img {
+    position: relative;
+    top: 300px;
+    width: 100%;
+}
+#bg p {
+    text-transform: uppercase;
+    font-size: 70px;
+    position: relative; 
+    top: -300px; 
+    color:white;
+    font-weight: bold;
+}
+#bg button {
+    left: 200px;
+    width: 150px;
+    height: 50px;
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative; 
+    top: -350px; 
+    color:white;
+    background-color: red;
+    border-radius: 20px;
+}
+@media screen and  (min-width: 576px) and (max-width: 992px) {
+    #bg #medium {
+        width: 100%;
+       height: 800px;
+    }
+    #bg p {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:576px){
+    #bg .hide-on-med-and-up {
+        height: 812px;
+        position: relative;
+        top: 120px;
+    }
+    #bg p {
+        font-size: 28px;
+    }
+    #logo-container {
+        font-size: 30px;
+    }
+    #bg button {
+       width: 100px;
+       height: 30px;
+       font-size: 15px;
+       left: 100px;
+       top: -300px;
+    }
+    #bg {
+        top: -250px;
+    }
+    
+}

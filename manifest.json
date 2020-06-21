@@ -1,0 +1,16 @@
+{
+    "name": "web download anime",
+    "short_name": "animiku",
+    "description": "submission diccoding",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#9a10d8f2",
+    "theme_color": "#9a10d8f2",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
