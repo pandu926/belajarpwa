@@ -101,8 +101,17 @@ body {
              
     }
     body {
-        height: 812px;
+        height: 775px;
         overflow: hidden;
     }
     
+}
+
+/* sejarah */
+
+#sejarah {
+    background-color: black;
+    position: relative;
+    top: -110px;
+    height: 775px;
 }
