@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', function(){
 	// SIDEBAR NAVIGATION
 	var elems = document.querySelectorAll('.sidenav');
 	M.Sidenav.init(elems);
+	
+	
 	loadNav();
 
 	function loadNav()
@@ -31,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function(){
 						loadPage(page);
 					});
 				});
+				 
 			}
 		};
 		xhttp.open("GET", 'nav.html', true);
@@ -50,6 +53,8 @@ document.addEventListener('DOMContentLoaded', function(){
 				var content = document.querySelector(".body-content");
 				if(this.status == 200) {
 					content.innerHTML = xhttp.responseText;
+					var modals = document.querySelectorAll('.modal');
+					M.Modal.init(modals);
 				} else if(this.status == 404) {
 					content.innerHTML = `<h1>halaman tidak dapat di cari</h1>`;
 				} else {
