@@ -15,7 +15,7 @@ class   KesenianCard extends HTMLElement {
           
           <div class="col">
             <button id="card"class="waves-effect waves-light btn modal-trigger" href="#modal2">
-             <img src="img/lengger.png"> 
+             <img src="https://www.inibaru.id/nuploads/1/shutterstock-703809949_1506923185.jpg"> 
                   <p>Embleg</p>    
             </button>
           </div>
