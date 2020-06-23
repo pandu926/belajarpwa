@@ -143,9 +143,29 @@ body {
     height: 300px; 
     width: 100%;
  }
- #sejarah #content #card p, #pariwisata #card p, #kesenian #card p {
+ 
+ #sejarah #content .col {
+     height: 200px;
+ }
+  #pariwisata #card p, #kesenian #card p {
     font-size: 40px;
     font-weight: bold;
+    position: relative;
+    z-index: 12;
+    top: -300px;
+    text-shadow: 0 0 10px red;
+}
+#sejarah #content #card p {
+    font-size: 40px;
+}
+#kesenian #card img, #sejarah #card img, #pariwisata #card img {
+    width: 100%;
+    position: relative;
+    top: 5px;
+    box-shadow: 0 0 10px white;
+}
+#kesenian #card , #pariwisata #card, #sejarah #card {
+    background-color: black;
 }
  #navbot  {
      color: white;
@@ -175,8 +195,16 @@ body {
         position: relative;
         top: 30px;
     }
+    #sejarah #navbot {
+        top: 80px;
+        right: 20px;
+    }
     #navbot {
         top: 200px;
+    }
+    #sejarah #content {
+        position: relative;
+        top: 70px;
     }
  }
 
@@ -193,11 +221,19 @@ body {
 @media screen and (max-width: 576px){
     #pariwisata #content, #kesenian #content   {
         display: block;
-        margin-left: 12px;
+        margin-left: 5px;
      }
      #pariwisata #content #card, #kesenian #content #card  {    
         width: 300px;
         
         
      }
+     #sejarah #content #card p, #pariwisata #card p, #kesenian #card p {
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+        z-index: 12;
+        top: -150px;
+        text-shadow: 0 0 10px red;
+    }
 }

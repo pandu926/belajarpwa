@@ -8,12 +8,14 @@ class   KesenianCard extends HTMLElement {
         <div id="content" class="row container ">
           <div class="col">
             <button id="card" class="waves-effect waves-light btn modal-trigger" href="#modal1"> 
+            <img src="img/lengger.png">
                   <p>Lengger</p>    
             </button>
           </div>
           
           <div class="col">
-            <button id="card"class="waves-effect waves-light btn modal-trigger" href="#modal2"> 
+            <button id="card"class="waves-effect waves-light btn modal-trigger" href="#modal2">
+             <img src="img/lengger.png"> 
                   <p>Embleg</p>    
             </button>
           </div>
