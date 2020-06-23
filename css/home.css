@@ -109,14 +109,14 @@ body {
 
 /* sejarah */
 
-#sejarah {
+#sejarah, #pariwisata, #kesenian {
     background-color: black;
     position: relative;
     top: -110px;
     height: 790px;
 }
 
-#sejarah h1{
+#sejarah h1, #pariwisata h1, #kesenian h1{
     color: white;
     text-align: center;
     position: relative;
@@ -125,7 +125,7 @@ body {
     font-weight: bolder;
 }
 
-#sejarah #content {
+#sejarah #content, #pariwisata #card {
     position: relative;
     top: 150px;
 }
@@ -157,10 +157,31 @@ body {
     #content {
         margin-top: -50px;
     }
-    #sejarah h1 {
+    #sejarah h1, #pariwisata h1 {
         font-size: 30px;
     }
     #navbot {
         top: 200px;
     }
  }
+
+ /* pariwisata  */
+
+#pariwisata #content  {
+   display: flex;
+   margin-left: 0px;
+}
+#pariwisata #content #card  {    
+    width: 550px;
+ }
+
+@media screen and (max-width: 576px){
+    #pariwisata #content  {
+        display: block;
+        margin-left: 0px;
+     }
+     #pariwisata #content #card  {    
+        width: 320px;
+        
+     }
+}

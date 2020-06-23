@@ -13,7 +13,9 @@ document.addEventListener('DOMContentLoaded', function(){
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4){
 				if(this.status != 200) return;
-
+				
+				
+				
 				// Muat daftar tautan menu
 				document.querySelectorAll(".topnav, .sidenav")
 				.forEach(function(elm){
@@ -21,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
 				});
 
 				// Daftarkan event listener untuk setiap tautan menu
-				document.querySelectorAll('.sidenav a, .topnav a')
+				document.querySelectorAll('.sidenav a, .topnav a, .navigasi a')
 				.forEach(function(elm){
 					elm.addEventListener('click', function(event){
 						// Tutup sidenav
@@ -55,6 +57,15 @@ document.addEventListener('DOMContentLoaded', function(){
 					content.innerHTML = xhttp.responseText;
 					var modals = document.querySelectorAll('.modal');
 					M.Modal.init(modals);
+					document.querySelectorAll(' .navigasi a')
+					.forEach(function(elm){
+						elm.addEventListener('click', function(event){
+
+							// Muat konten halaman yang dipanggil 
+							page = event.target.getAttribute('href').substr(1);
+							loadPage(page);
+						});
+					});		
 				} else if(this.status == 404) {
 					content.innerHTML = `<h1>halaman tidak dapat di cari</h1>`;
 				} else {

@@ -20,7 +20,7 @@ class SejarahCard extends HTMLElement {
           </button>
         </div>
 
-        <div class="col s12 m4 ">
+        <div class="col s12 m4">
           <button id="card" class="waves-effect waves-light btn modal-trigger" href="#modal3"> 
                 <p style="font-size: 40px;">Asal Mula</p>    
           </button>
