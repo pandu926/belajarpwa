@@ -1,18 +1,25 @@
-const CACHE_NAME = 'firstpw';
+const CACHE_NAME = 'wonosoboku';
 var urlsToCache = [
 	'/',
 	'/nav.html',
 	'/index.html',
 	'/pages/home.html',
-	'/pages/genre.html',
-	'/pages/contact.html',
+	'/pages/kesenian.html',
+	'/pages/sejarah.html',
+	'/pages/pariwisata.html',
 	'/css/home.css',
 	'/css/materialize.min.css',
 	'/js/materialize.min.js',
 	'/js/script.js',
-	'/img/1.jpg',
-	'/img/2.jpg',
-	'/img/3.jpg'
+	'/img/bg.png',
+	'/img/bg-hp.png',
+	'/img/bg-tablet.png',
+	'/img/lengger.png',
+	'/img/sejarah.jpg',
+	'/img/sikunir.jpg',
+	'/component/kesenian-card.js',
+	'/component/sejarah-card.js',
+	'/component/pariwisata-card.js'
 ];
 
 self.addEventListener('install', function(event){

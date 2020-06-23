@@ -1,6 +1,6 @@
 {
-    "name": "web download anime",
-    "short_name": "animiku",
+    "name": "wonosoboku",
+    "short_name": "wonosobo",
     "description": "submission diccoding",
     "start_url": "/index.html",
     "display": "standalone",
