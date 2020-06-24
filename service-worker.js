@@ -12,6 +12,7 @@ var urlsToCache = [
 	'/js/materialize.min.js',
 	'/js/script.js',
 	'/img/bg.png',
+        '/manifest.json',
 	'/img/bg-hp.png',
 	'/img/bg-tablet.png',
 	'/img/lengger.png',
