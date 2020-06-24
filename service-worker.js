@@ -18,6 +18,11 @@ var urlsToCache = [
 	'/img/lengger.png',
 	'/img/sejarah.jpg',
 	'/img/sikunir.jpg',
+        '/img/logo/logo192.png',
+        '/img/logo/logo256.png',
+        '/img/logo/logo152.png',
+        '/img/logo/logo144.png',
+        '/img/logo/icon.png',
 	'/component/kesenian-card.js',
 	'/component/sejarah-card.js',
 	'/component/pariwisata-card.js'
